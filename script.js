@@ -299,7 +299,7 @@ function imageScroll(event){
 
     const circlesArr = document.querySelectorAll('.circles');
     circlesArr.forEach(circle => circle.style.background = "white");
-    document.getElementById(id).style.background = "darkgrey";
+    document.getElementById(id).style.background = "rgb(91, 192, 190)";
 
     document.querySelector("#lightboxImgContainer").scroll({
         top: offsetTop,
@@ -317,16 +317,16 @@ function lightBoxArrowRight(){
         let currentCircle = circlesArr[i];
         let lastCircle = circlesArr.length - 1;
 
-        if (i === lastCircle && currentCircle.style.background === "darkgrey"){
+        if (i === lastCircle && currentCircle.style.background === "rgb(91, 192, 190)"){
             currentCircle.style.background = "white";
-            circlesArr[0].style.background = "darkgrey";
+            circlesArr[0].style.background = "rgb(91, 192, 190)";
 
             circlesArr[0].click();
             break;
 
-        } else if (currentCircle.style.background === "darkgrey"){
+        } else if (currentCircle.style.background === "rgb(91, 192, 190)"){
             currentCircle.style.background = "white";
-            circlesArr[i + 1].style.background = "darkgrey";
+            circlesArr[i + 1].style.background = "rgb(91, 192, 190)";
 
             circlesArr[i + 1].click();
             break;
@@ -350,16 +350,16 @@ function lightBoxArrowLeft() {
         let currentCircle = circlesArrReversed[i];
         let lastCircle = circlesArrReversed.length - 1;
 
-        if (i === lastCircle && currentCircle.style.background === "darkgrey") {
+        if (i === lastCircle && currentCircle.style.background === "rgb(91, 192, 190)") {
             currentCircle.style.background = "white";
-            circlesArrReversed[0].style.background = "darkgrey";
+            circlesArrReversed[0].style.background = "rgb(91, 192, 190)";
 
             circlesArrReversed[0].click();
             break;
 
-        } else if (currentCircle.style.background === "darkgrey") {
+        } else if (currentCircle.style.background === "rgb(91, 192, 190)") {
             currentCircle.style.background = "white";
-            circlesArrReversed[i + 1].style.background = "darkgrey";
+            circlesArrReversed[i + 1].style.background = "rgb(91, 192, 190)";
 
             circlesArrReversed[i + 1].click();
             break;
