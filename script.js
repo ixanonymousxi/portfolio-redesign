@@ -155,8 +155,8 @@ const projects = {
 
 
 const link_images = {
-    linkedin: ["images/linkedin_icon-grey.png", "images/linkedin_icon.png"],
-    github: ["images/github_icon-grey.png", "images/github_icon.png"]
+    linkedin: ["Images/linkedin_icon-grey.png", "Images/linkedin_icon.png"],
+    github: ["Images/github_icon-grey.png", "Images/github_icon.png"]
 }
 
 
@@ -268,12 +268,12 @@ function openLightBox(event){
     elements["lightBoxCompany"].innerHTML = projects[id]["Company"];
     elements["lightBoxDescription"].innerHTML = projects[id]["Description"];
 
-    elements["lightBoxImage"].src = "images/designProjects/" + projects[id]["Images"][0];
+    elements["lightBoxImage"].src = "Images/designProjects/" + projects[id]["Images"][0];
 
     if (projects[id]["Images"].length > 1){
         for (let i = 1; i < projects[id]["Images"].length; i++){
             let newImage = document.createElement("img");
-            newImage.src = "images/designProjects/" + projects[id]["Images"][i];
+            newImage.src = "Images/designProjects/" + projects[id]["Images"][i];
             newImage.id = "img-" + (i + 1);
             elements["lightBoxImageContainer"].appendChild(newImage);
 
