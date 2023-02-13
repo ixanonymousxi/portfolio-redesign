@@ -204,7 +204,7 @@ document.addEventListener('keydown', function (event) {
     }
 });
 
-//window.addEventListener("resize", adjustMarginAndHeightOfMain());
+window.addEventListener("resize", adjustMarginAndHeightOfMain);
 document.addEventListener("load", adjustMarginAndHeightOfMain());
 
 
@@ -377,10 +377,9 @@ function adjustMarginAndHeightOfMain(){
     
 
     if(widthOfWrapper > 900){
-
         document.querySelectorAll(".sides").forEach(div => {
             div.style.minHeight = heightOfWrapper - heightOfNav + "px";
-            div.style.marginTop = heightOfNav + "px";
+            elements["main"].style.paddingTop = heightOfNav + "px";
         });
 
         document.querySelectorAll(".div-link").forEach(div => {
