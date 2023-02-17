@@ -373,6 +373,7 @@ function adjustMarginAndHeightOfMain(){
     const heightOfWrapper = elements["wrapper"].clientHeight;
     const widthOfWrapper = elements["wrapper"].clientWidth;
     const heightOfNav = elements["nav"].clientHeight;
+    const vh = window.innerHeight;
     
 
     if(widthOfWrapper > 900){
@@ -386,7 +387,10 @@ function adjustMarginAndHeightOfMain(){
         });
 
     }else{
-        elements["main"].style.paddingTop = heightOfNav + "px";
+        document.querySelectorAll(".sides").forEach(div => {
+            div.style.minHeight = ((vh - heightOfNav)/2) - 9 + "px";
+            elements["main"].style.paddingTop = heightOfNav + "px";
+        });
     }
 
 }
