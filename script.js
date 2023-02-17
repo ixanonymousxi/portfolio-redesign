@@ -377,6 +377,9 @@ function adjustMarginAndHeightOfMain(){
     
 
     if(widthOfWrapper > 700){
+
+        elements["wrapper"].style.height = '100vh';
+
         document.querySelectorAll(".sides").forEach(div => {
             div.style.minHeight = heightOfWrapper - heightOfNav + "px";
             elements["main"].style.paddingTop = heightOfNav + "px";
@@ -387,9 +390,10 @@ function adjustMarginAndHeightOfMain(){
         });
 
     }else{
+        elements["wrapper"].style.height = window.innerHeight + 'px';
+
         document.querySelectorAll(".sides").forEach(div => {
-            document.documentElement.style.setProperty('min-height','${window.innerHeight * 0.01}px');
-            div.style.minHeight = ((vh - heightOfNav)/2) - 9 + "px";
+            div.style.minHeight = ((elements["wrapper"].clientHeight - heightOfNav)/2) - 9 + "px";
             elements["main"].style.paddingTop = heightOfNav + "px";
         });
     }
