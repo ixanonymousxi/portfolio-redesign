@@ -376,7 +376,7 @@ function adjustMarginAndHeightOfMain(){
     const vh = window.innerHeight;
     
 
-    if(widthOfWrapper > 900){
+    if(widthOfWrapper > 700){
         document.querySelectorAll(".sides").forEach(div => {
             div.style.minHeight = heightOfWrapper - heightOfNav + "px";
             elements["main"].style.paddingTop = heightOfNav + "px";
@@ -388,6 +388,7 @@ function adjustMarginAndHeightOfMain(){
 
     }else{
         document.querySelectorAll(".sides").forEach(div => {
+            document.documentElement.style.setProperty('min-height','${window.innerHeight * 0.01}px');
             div.style.minHeight = ((vh - heightOfNav)/2) - 9 + "px";
             elements["main"].style.paddingTop = heightOfNav + "px";
         });
