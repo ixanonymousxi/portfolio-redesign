@@ -8,7 +8,7 @@ const projects = {
     AgingMedia_2: {
         Title: "Michael J Fox Foundation <br>White Paper",
         Company: "Aging Media Network",
-        Description: "I design white papers at Aging Media Network.&nbsp;White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;The process involves collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;Every sponsor has their own look I have to follow, which make these a good exercise in branding.",
+        Description: "&nbsp;White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;I collect appropiate photos and icons and put them together with the content in a visually appealing and easy to read manner.&nbsp;Every sponsor has their own look I have to follow, which make these a good exercise in branding.",
         Images: ["AgingMedia-2.1.png", "AgingMedia-2.2.png"]
     },
     AgingMedia_3: {
@@ -128,19 +128,19 @@ const projects = {
     SpellBinding_1: {
         Title: "Make Up Artist Business Card",
         Company: "SpellBinding Color Concepts",
-        Description: "A client I worked with was a Chicago based make up artist who needed a logo and business card.&nbsp;For the business cards,&nbsp;the one in the bottom right corner was a concept piece and the one in the top left corner was the one she chose.",
+        Description: "A Chicago based make up artist is a client I worked with who needed a logo and business card.&nbsp;For the business cards,&nbsp;the one in the bottom right corner was a concept piece and the one in the top left corner was the one she chose.",
         Images: ["SpellBindingColorConcepts-1.1.png"]
     },
     SpellBinding_2: {
         Title: "Make Up Artist Logo",
         Company: "SpellBinding Color Concepts",
-        Description: "A client I worked with was a Chicago based make up artist who needed a logo and business card.&nbsp;She wanted a logo that had a cutesy witch riding a makeup brush over the Chicago skyline.&nbsp;The top logo was a concept and the bottom logo was what she chose.",
+        Description: "A Chicago based make up artist is a client I worked with who needed a logo and business card.&nbsp;She wanted a logo that had a cutesy witch riding a makeup brush over the Chicago skyline.&nbsp;The top logo was a concept and the bottom logo was what she chose.",
         Images: ["SpellBindingColorConcepts-2.1.png", "SpellBindingColorConcepts-2.2.png"]
     },
     Doll_1: {
         Title: "Beautician Website",
         Company: "Doll In A Dash",
-        Description: "The client I was working with had her own beauty salon.&nbsp;She wanted her landing page to look like a wall with vintage picture frames on it.&nbsp;The picture frames being the links to the other pages.",
+        Description: "Doll In A Dash is a beauty salon that acquires most of its clientele online.&nbsp;The business owner wanted her landing page to look like a wall with vintage picture frames on it.&nbsp;The picture frames being the links to the other pages.",
         Images: ["DollInADash-1.1.png", "DollInADash-1.2.png"]
     },
     HIM_1: {
