@@ -504,6 +504,7 @@
 
         .sides-no-height {
            height: 0%;
+           min-height:unset !important;
         }
 
         .blurb-focus {
