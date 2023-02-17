@@ -1,75 +1,74 @@
-
 const projects = {
     AgingMedia_1:{
         Title:"PointClickCare Survey eBook",
         Company:"Aging Media Network",
-        Description:"Survey eBooks are highly detailed and visually compelling media (between 8-10 pages) that highlight topics and subject matter relevant to the client's product or service.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;In the first step of the process,&nbsp;I created charts and graphs based on the data that was given to me.&nbsp;Then I was given copy to incorporate into the eBook that went over the key takeaways of the data.&nbsp;From there,&nbsp;I combined the charts and copy together with photos and icons in order to present the data in a easily digestable format.&nbsp;There was extra emphasis placed on making the piece easy to skim for the reader,&nbsp;but still managing to get the key points across.&nbsp;I also made sure to incorporate the client's branding in the eBook.<br><br> After creating the eBook,&nbsp;I built a landing page where a potential lead could download the eBook.&nbsp;I used similar design and imagery from the eBook to build out the landing page.&nbsp;The purpose of the landing page was to generate interest in the piece of content,&nbsp;capture email leads,&nbsp;and drive traffic to the sponsor's website.",
+        Description:"At Aging Media Network,&nbsp;I design survey eBooks which are a collection of charts and graphs that show key takeaways for the industry.&nbsp;I create the charts and graphs from the data and combine them with copy to emphasize the key points.&nbsp;I add photos and icons in order to present the data in a easily digestable format.&nbsp;Extra emphasis is placed on making the piece easy to skim for the reader by using callouts and engaging imagery.&nbsp;I also make sure to incorporate the client's branding in the eBook.<br><br> After creating the eBook,&nbsp;I build a landing page where a potential lead could download the eBook.&nbsp;I use similar design and imagery from the eBook to build out the landing page.&nbsp;The purpose of the landing page is to generate interest in the piece of content,&nbsp;capture email leads,&nbsp;and drive traffic to the sponsor's website.",
         Images: ["AgingMedia-1.1.png", "AgingMedia-1.2.png", "AgingMedia-1.3.png"]
     },
     AgingMedia_2: {
         Title: "Michael J Fox Foundation <br>White Paper",
         Company: "Aging Media Network",
-        Description: "White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;There was extra emphasis placed on making the piece easy to skim for the reader,&nbsp;but still managing to get the key points across.&nbsp;I also made sure to incorporate the client's branding in the white paper.",
+        Description: "I design white papers at Aging Media Network.&nbsp;White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;The process involves collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;Every sponsor has their own look I have to follow, which make these a good exercise in branding.",
         Images: ["AgingMedia-2.1.png", "AgingMedia-2.2.png"]
     },
     AgingMedia_3: {
         Title: "Skilled Nursing News <br>Executive Brief",
         Company: "Aging Media Network",
-        Description: "Executive briefs are 2 page articles on topics discussed by thought-leaders in the industry.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;I made sure to incorporate the client's branding in the executive brief as well.<br><br> After creating the executive brief,&nbsp;I built a landing page where a potential lead could download the executive brief.&nbsp;I used similar design and imagery from the executive brief to build out the landing page.&nbsp;The purpose of the landing page was to generate interest in the piece of content,&nbsp;capture email leads,&nbsp;and drive traffic to the sponsor's website.",
+        Description: "Executive briefs are 2 page articles on topics discussed by thought-leaders in the industry.&nbsp;I incorporate interesting callouts and experiment with different color combinations, based on the company's branding, to make these pieces stand out.<br><br> After creating the executive brief,&nbsp;I build a landing page where one can read a brief synopsis of the executive brief and download it if it captures their interest.&nbsp;I draw inspiration from the executive brief to creatively build out the landing page.&nbsp;The goal of the landing page is to generate as much interest in the piece of content in order to capture email leads.",
         Images: ["AgingMedia-3.1.png", "AgingMedia-3.2.png"]
     },
     AgingMedia_4: {
         Title: "PlayMaker Health White Paper",
         Company: "Aging Media Network",
-        Description: "White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;There was extra emphasis placed on making the piece easy to skim for the reader,&nbsp;but still managing to get the key points across.&nbsp;I also made sure to incorporate the client's branding in the white paper.",
+        Description: "At Aging Media Network white papers are a part of a sponsorship program that features the client's product or service in an in depth article.&nbsp;I design these articles using icons,&nbsp;stock photos,&nbsp;and illustrations that compliment the content copy I am provided. I am given brand guidleines to follow for each white paper so it follows the look and feel of the client's company.",
         Images: ["AgingMedia-4.1.png", "AgingMedia-4.2.png"]
     },
     AgingMedia_5: {
         Title: "Trella Health Webinar Brief",
         Company: "Aging Media Network",
-        Description: "Webinar briefs are a 2 page summary of a recorded webinar.&nbsp;They are made to extend the time,&nbsp;effort,&nbsp;and content of the webinar to maximize its value.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;I made sure to incorporate the client's branding in the webinar brief as well.<br><br> After creating the webinar brief,&nbsp;I built a landing page where a potential lead could download the webinar brief.&nbsp;I used similar design and imagery from the webinar brief to build out the landing page.&nbsp;The purpose of the landing page was to generate interest in the piece of content,&nbsp;capture email leads,&nbsp;and drive traffic to the sponsor's website.",
+        Description: "Webinar briefs are a 2 page summary of a recorded webinar.&nbsp;I use icons and illustrations that relate to the topic of the webinar to draw visual interest.&nbsp;The color pallete I choose is based on the sponsor's branding.<br><br> After creating the webinar brief,&nbsp;I build a landing page using the same design from the brief.&nbsp;The landing page gets promoted to the webinar attendees and others that might be interested in downloading the asset.",
         Images: ["AgingMedia-5.1.png", "AgingMedia-5.2.png"]
     },
     AgingMedia_6: {
         Title: "CareAcademy Audience Based Marketing Campaign",
         Company: "Aging Media Network",
-        Description: "Audience Based Marketing is a program that relies upon packed content and target distribution geared towards specific audiences or job roles.&nbsp;In this program,&nbsp; Aging Media Network works with the client to develop 2-3 specific lead-generation content items to drive engagement and downloads.&nbsp;As the designer, I created the assets that coincided with the content to generate leads.&nbsp;This included article headers,&nbsp;preview images,&nbsp;and social media images.&nbsp;Each piece followed the theme of the content as well as the branding of the vertical it was hosted on.",
+        Description: "Audience Based Marketing is a program that supplies packed content geared towards specific audiences.&nbsp;In this program,&nbsp; Aging Media Network works with the client to develop 2-3 specific lead-generation content items to drive engagement and downloads.&nbsp;As the designer, I create the assets that coincide with the content to generate leads.&nbsp;This includes article headers,&nbsp;preview images,&nbsp;and social media images.",
         Images: ["AgingMedia-6.1.png", "AgingMedia-6.2.png"]
     },
     AgingMedia_7: {
         Title: "Molnlycke White Paper",
         Company: "Aging Media Network",
-        Description: "White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;There was extra emphasis placed on making the piece easy to skim for the reader,&nbsp;but still managing to get the key points across.&nbsp;I also made sure to incorporate the client's branding in the white paper.",
+        Description: "White papers are sponsored assets that showcase the client's product or service.&nbsp;I look through the sponsor's branding guidelines and use that to carry out the design of the white paper.&nbsp;The sponsor's branding often informs what imagery,&nbsp;icons,&nbsp;fonts and colors I can use to make the piece shine.",
         Images: ["AgingMedia-7.1.png", "AgingMedia-7.2.png"]
     },
     AgingMedia_8: {
         Title: "PointClickCare Webinar Brief",
         Company: "Aging Media Network",
-        Description: "Webinar briefs are a 2 page summary of a recorded webinar.&nbsp;They are made to extend the time,&nbsp;effort,&nbsp;and content of the webinar to maximize its value.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;I made sure to incorporate the client's branding in the webinar brief as well.",
+        Description: "Webinar briefs are a 2 page summary of a recorded webinar.&nbsp;They are made to extend the time,&nbsp;effort,&nbsp;and content of the webinar to maximize its value.&nbsp;I collect photos and icons relating to the webinar and put them together with the content to create an engaging piece.",
         Images: ["AgingMedia-8.1.png"]
     },
     AgingMedia_9: {
         Title: "IntelyCare White Paper",
         Company: "Aging Media Network",
-        Description: "White papers are sponsored articles (approximately 1,500 words) that showcase the client's product or service in a business case format.&nbsp;At Aging Media Network,&nbsp;I was responsible for designing these assets.&nbsp;The process involved collecting appropiate photos and icons and putting them together with the content in a visually appealing and easy to read manner.&nbsp;There was extra emphasis placed on making the piece easy to skim for the reader,&nbsp;but still managing to get the key points across.&nbsp;I also made sure to incorporate the client's branding in the white paper.",
+        Description: "Aging Media Network provides sponsored content such as white papers to increase audience engagement. I collect resources such as icons and stock photos to make the content more engaging and easier to read. I make sure to keep the sponsor's branding in mind when selecting fonts, colors, and imagery.",
         Images: ["AgingMedia-9.1.png", "AgingMedia-9.2.png"]
     },
     AgingMedia_10: {
         Title: "Build Conference Social Assets",
         Company: "Aging Media Network",
-        Description: "Aging Media Network hosted several networking events for experts in the industry.&nbsp;I created social assets for promotion of the events across various mediums such as social media,&nbsp;email,&nbsp;and web ad placements.&nbsp; In these assets I incorporated imagery that followed the theme of the event or I used photography taken from previous years.",
+        Description: "Aging Media Network hosts several networking events for experts in the industry.&nbsp;I create social assets for promotion of the events across various mediums such as social media,&nbsp;email,&nbsp;and web ad placements.&nbsp; In these assets I incorporated imagery that follows the theme of the event, in this case senior living development.",
         Images: ["AgingMedia-10.1.png", "AgingMedia-10.2.png", "AgingMedia-10.3.png"]
     },
     AgingMedia_11: {
         Title: "Rethink Conference <br>Social Assets",
         Company: "Aging Media Network",
-        Description: "Aging Media Network hosted several networking events for experts in the industry.&nbsp;I created social assets for promotion of the events across various mediums such as social media,&nbsp;email,&nbsp;and web ad placements.&nbsp; In these assets I incorporated imagery that followed the theme of the event or I used photography taken from previous years.",
+        Description: "Each vertical of Aging Media Network organizes events for experts in the field.&nbsp;Each event requires promotional materials such as social media assets, email assets, and web ads.&nbsp;I design these assets keeping the vertical branding and theme of the event in mind.&nbsp;In these cases,&nbsp;the light bulb captures the concept of new ideas and the photgraphy is from a previous year's event.",
         Images: ["AgingMedia-11.1.png", "AgingMedia-11.2.png", "AgingMedia-11.3.png", "AgingMedia-11.4.png", "AgingMedia-11.5.png"]
     },
     AgingMedia_12: {
         Title: "Staffing Summit Social Assets",
         Company: "Aging Media Network",
-        Description: "Aging Media Network hosted several virtual events for experts in the industry.&nbsp;I created social assets for promotion of the events across various mediums such as social media,&nbsp;email,&nbsp;and web ad placements.&nbsp; In these assets I incorporated imagery that followed the theme of the event.",
+        Description: "Aging Media Network hosts several virtual events to facilitate a more involved audience.&nbsp;I create social assets for promotion of the events across various mediums such as social media,&nbsp;email,&nbsp;and web ad placements.&nbsp; Since these events are virtual, I often use abstract imagery for the visuals.",
         Images: ["AgingMedia-12.1.png", "AgingMedia-12.2.png"]
     },
     Caro_1: {
@@ -93,13 +92,13 @@ const projects = {
     Caro_4: {
         Title: "Sea Shell Calendar",
         Company: "Carousel Checks",
-        Description: "Carousel Checks is a small business that supplies financial documents and products,&nbsp;namely checks,&nbsp;to institutions and direct to consumers.&nbsp;Some of the products offered were themed calendars.&nbsp;The design team was in charge of coming up with new themes that could span across 12 months.&nbsp;The example shown is a beach theme that I came up with and executed.",
+        Description: "Carousel Checks had a wide product selection which included themed calendars.&nbsp;The graphics team was in charge of coming up with new themes that could span across 12 months.&nbsp;I designed the beach theme shown here.",
         Images: ["Caro-4.1.png", "Caro-4.2.png", "Caro-4.3.png"]
     },
     Caro_5: {
         Title: "Swirl Creature Checks",
         Company: "Carousel Checks",
-        Description: "Carousel Checks is a small business that supplies financial documents and products,&nbsp;namely checks,&nbsp;to institutions and direct to consumers.&nbsp;These example shown is a set of personal checks I designed.&nbsp;When designing personal checks I was careful not to use any dark colors that might interfere with the MICR line. ",
+        Description: "Carousel Checks largest product line was personal checks.&nbsp;The example shown is a set of personal checks I designed. ",
         Images: ["Caro-5.1.png", "Caro-5.2.png"]
     },
     Edgy_1: {
