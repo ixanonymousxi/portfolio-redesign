@@ -367,13 +367,13 @@
                     
         
                     .d-blurb-home {
-                        background: 50% 45% / 45% no-repeat url("Images/design_icon-mobile.png");
+                        background: 50% 45% / 45% no-repeat url("images/design_icon-mobile.png");
 
                     }
 
 
                     .c-blurb-home {
-                        background: 50% 85% / 55% no-repeat url("Images/code_icon.png");
+                        background: 50% 85% / 55% no-repeat url("images/code_icon.png");
                     }
 
 
@@ -389,65 +389,50 @@
 
                 @media (min-width: 700px) {
 
-                    .d-blurb-home {
-                            background: 50% 45% / 30% no-repeat url("Images/design_icon-mobile.png");
-                    
+                    .sides {
+                            width: 49.6%;
                         }
                     
-                    
-                        .c-blurb-home {
-                            background: 50% 85% / 30% no-repeat url("Images/code_icon.png");
+                        .div-link {
+                            width: 50%;
                         }
-
-                        .blurb-info{
+                    
+                        .blurb-info {
+                            align-content: flex-end;
+                            padding-bottom: 2rem;
                             gap: 1rem;
                         }
+
+
+                        .d-blurb-home {
+                            background: 50% 16% / 40% no-repeat url("images/design_icon.png");
+                    
+                        }
+                    
+                        .c-blurb-home {
+                            background: 64% 20% / 55% no-repeat url("images/code_icon.png");
+                        }
+   
                     
                     
                         .blurb-info img {
-                            width: 45%;
+                            width: 60%;
                         }
                     
                         .blurb-info p {
-                            width: 55%;
-                            font-size: 1rem;
+                            width: 75%;
                         }
         
                 }
         
         
                 @media (min-width: 900px) {
-                    
-                    
-                    .sides{
-                        width:49.6%;
-                    }
-
-                    .div-link {
-                        width: 50%;
-                    }
-
-                    .blurb-info{
-                        align-content:flex-end;
-                        padding-bottom:2rem;
-                    }
-
-                    .d-blurb-home {
-                        background: 50% 16% / 40% no-repeat url("Images/design_icon.png");
-
-                    }
-
-                    .c-blurb-home {
-                        background: 64% 20% / 55% no-repeat url("Images/code_icon.png");
-                    }
-
-
                     .blurb-info img {
-                        width: 70%;
-                    }
-
+                            width: 70%;
+                        }
+                    
                     .blurb-info p {
-                        width: 75%;
+                        font-size: 1rem;
                     }
 
         
