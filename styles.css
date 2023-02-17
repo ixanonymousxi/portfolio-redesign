@@ -367,13 +367,13 @@
                     
         
                     .d-blurb-home {
-                        background: 50% 45% / 45% no-repeat url("images/design_icon-mobile.png");
+                        background: 50% 45% / 45% no-repeat url("Images/design_icon-mobile.png");
 
                     }
 
 
                     .c-blurb-home {
-                        background: 50% 85% / 55% no-repeat url("images/code_icon.png");
+                        background: 50% 85% / 55% no-repeat url("Images/code_icon.png");
                     }
 
 
@@ -405,12 +405,12 @@
 
 
                         .d-blurb-home {
-                            background: 50% 16% / 40% no-repeat url("images/design_icon.png");
+                            background: 50% 16% / 40% no-repeat url("Images/design_icon.png");
                     
                         }
                     
                         .c-blurb-home {
-                            background: 64% 20% / 55% no-repeat url("images/code_icon.png");
+                            background: 64% 20% / 55% no-repeat url("Images/code_icon.png");
                         }
    
                     
