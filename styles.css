@@ -120,7 +120,7 @@
         }
 
         .logo-bg {
-            outline:5px solid white;
+            box-shadow: 0 0 0 5px white;
             background: white;
             z-index: 1;
         }
@@ -203,7 +203,7 @@
                     }
 
                     .logo-bg {
-                        outline: 8px solid white;
+                        box-shadow: 0 0 0 8px white;
                     }
 
                     .logo-top {
